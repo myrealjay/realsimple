@@ -1,0 +1,22 @@
+{
+    "name": "myrealjay/realsimple",
+    "description": "This is a simple php framework",
+    "keywords": ["real", "simple","realsimple","myrealjay","framework","php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nwachukwu James",
+            "email": "nwachukwujames7@gmail.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Realsimple\\": "src/"
+        }
+    }
+}
